@@ -2,15 +2,19 @@ package UMC.chapter4.service;
 
 import UMC.chapter4.model.Board;
 import UMC.chapter4.repository.BoardRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class BoardService {
     private final BoardRepository boardRepository;
 
     // 생성자 주입
-    public BoardService(BoardRepository boardRepository) {
+    @Autowired
+    public BoardService(final BoardRepository boardRepository) {
         this.boardRepository = boardRepository;
     }
 

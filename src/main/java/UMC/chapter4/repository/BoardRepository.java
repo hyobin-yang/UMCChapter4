@@ -1,12 +1,14 @@
 package UMC.chapter4.repository;
 
 import UMC.chapter4.model.Board;
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.atomic.AtomicLong;
 
+@Component
 public class BoardRepository {
 
     private final List<Board> boards = new ArrayList<>();

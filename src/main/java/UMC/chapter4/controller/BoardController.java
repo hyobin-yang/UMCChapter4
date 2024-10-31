@@ -3,14 +3,17 @@ package UMC.chapter4.controller;
 import UMC.chapter4.service.BoardService;
 import UMC.chapter4.view.InputView;
 import UMC.chapter4.view.OutputView;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 
-
+@Controller
 public class BoardController {
 
     private final BoardService boardService;
 
     // 생성자
-    public BoardController(BoardService boardService) {
+    @Autowired
+    public BoardController(final BoardService boardService) {
         this.boardService = boardService;
     }
 
