@@ -1,5 +1,6 @@
 package UMC.study.domain.mapping;
 
+import UMC.study.domain.enums.MissionStatus;
 import jakarta.persistence.*;
 import lombok.*;
 
