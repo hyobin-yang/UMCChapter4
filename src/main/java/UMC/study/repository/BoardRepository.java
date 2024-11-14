@@ -1,6 +1,5 @@
-package UMC.chapter4.repository;
+package UMC.study.repository;
 
-import UMC.chapter4.model.Board;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;

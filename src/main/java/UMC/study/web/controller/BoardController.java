@@ -1,8 +1,8 @@
-package UMC.chapter4.controller;
+package UMC.study.web.controller;
 
-import UMC.chapter4.service.BoardService;
-import UMC.chapter4.view.InputView;
-import UMC.chapter4.view.OutputView;
+import UMC.study.service.BoardService;
+import UMC.study.view.InputView;
+import UMC.study.view.OutputView;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 

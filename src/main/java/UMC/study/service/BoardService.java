@@ -1,7 +1,6 @@
-package UMC.chapter4.service;
+package UMC.study.service;
 
-import UMC.chapter4.model.Board;
-import UMC.chapter4.repository.BoardRepository;
+import UMC.study.repository.BoardRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
